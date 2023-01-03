@@ -1,5 +1,5 @@
 ---
 - hosts: db
   roles:
-     - mysql
+     - nginxRole
   become: true
