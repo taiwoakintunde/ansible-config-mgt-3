@@ -10,7 +10,7 @@
     - always
 
 - name: import database file
-  import_playbook: ../static-assignments/database.yml
+  import_playbook: ../static-assignments/db.yml
 
 - name: import webservers file
   import_playbook: ../static-assignments/webservers.yml
